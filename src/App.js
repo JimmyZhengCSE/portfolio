@@ -1,29 +1,27 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
-import Home from './components/Home';
-import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home.js'
+import About from './components/About.js'
+import Projects from './components/Projects.js'
+import Contact from './components/Contact.js';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div>
-    <Home />
-    </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+    <ThemeProvider>
+      <Router>
+        <NavigationBar/>
+          <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/Portfolio' element={<Home />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/projects' element={<Projects />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 
