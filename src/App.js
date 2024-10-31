@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import Home from './components/Home';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      hi
+    <Home />
     </div>
     // <div className="App">
     //   <header className="App-header">
