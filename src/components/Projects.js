@@ -12,7 +12,10 @@ function Projects(){
                 {/* Project 1 */}
                 <div className="project-card bg-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 dark:bg-white">
                     <h3 className="text-xl font-semibold mb-2 text-white dark:text-black">Where in SBU?</h3>
-                    <p className="text-gray-400 font-bold mb-4">Brief description of the project goes here. Mention what the project is about and the key technologies used.</p>
+                    <p className="text-gray-400 font-bold mb-4">
+                        A browser-based game inspired by Geoguessr, where players explore <strong>Stony Brook University</strong> with Google Maps 
+                        Street View. Players are challenged to guess their exact location on campus by placing a marker on an interactive map.
+                    </p>
                     <div className="tech-stack text-sm text-gray-400 mb-4">
                         <span className="mr-4">Google Maps API</span>
                         <span className="mr-4">JavaScript</span>
