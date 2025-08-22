@@ -1,7 +1,7 @@
 # My Portfolio
 
 Welcome to my personal developer portfolio!
-You can visit my live site here: [Visit Portfolio]([http:](https://jimmyzhengcse.github.io/portfolio/)
+You can visit my live site here: [Visit Portfolio](https://jimmyzhengcse.github.io/portfolio/)
 
 ## About
 
