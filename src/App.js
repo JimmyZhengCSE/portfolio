@@ -10,7 +10,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <Router basename='portfolio'>
+      <Router>
         <NavigationBar/>
           <Routes>
           <Route path='/' element={<Home />}></Route>
