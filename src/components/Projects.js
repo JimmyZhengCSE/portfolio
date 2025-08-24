@@ -25,16 +25,16 @@ function Projects(){
                 </div>
 
                 {/* Project 2 */}
-                {/* <div className="project-card bg-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 dark:bg-white">
-                    <h3 className="text-xl font-semibold mb-2 text-white dark:text-black">Project 2</h3>
-                    <p className="text-gray-400 font-bold mb-4">Description.</p>
+                <div className="project-card bg-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 dark:bg-white">
+                    <h3 className="text-xl font-semibold mb-2 text-white dark:text-black">Trivia</h3>
+                    <p className="text-gray-400 font-bold mb-4">Test your knowledge with this fun trivia app!</p>
                     <div className="tech-stack text-sm text-gray-400 mb-4">
-                        <span className="mr-2">Tech 1</span>
-                        <span className="mr-2">Tech 2</span>
-                        <span>Tech 3</span>
+                        <span className="mr-2">Flask</span>
+                        <span className="mr-2">React</span>
+                        <span>JavaScript</span>
                     </div>
-                    <a href="https://project-link.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">View Project</a>
-                </div> */}
+                    <a href="https://trivia-jz60.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">View Project</a>
+                </div>
 
                 {/* Project 3 */}
                 {/* <div className="project-card bg-black p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 dark:bg-white">
